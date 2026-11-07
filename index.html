@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100d0e">
+  <meta name="description" content="A personal, no-pressure letter for Chandhana.">
+  <title>For Chandhana — A Story I Never Knew How to Tell</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home">C <span>✦</span> A</a>
+    <nav aria-label="Main navigation">
+      <a href="#memories">Memories</a>
+      <a href="#artwork">Artwork</a>
+      <a href="#letter">The letter</a>
+    </nav>
+    <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false">
+      <span class="music-dot"></span><span id="musicLabel">Music off</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow"></div>
+      <p class="eyebrow">A little page, made with care</p>
+      <h1>For <em>Chandhana.</em></h1>
+      <p class="hero-copy">Some feelings are difficult to say out loud.<br>So I put mine into words, memories and little pieces of art.</p>
+      <a class="primary-link" href="#memories">Open this little story <span>↓</span></a>
+      <p class="signature">— Avish</p>
+      <div class="scroll-hint">SCROLL SLOWLY <span>↓</span></div>
+    </section>
+
+    <section class="intro section narrow">
+      <p class="eyebrow">Before you read</p>
+      <h2>This is not a request.<br><em>It is simply my side of the story.</em></h2>
+      <p>I know you have already shared how you feel, and I respect your answer. You do not owe me a reply, a decision, or a different feeling. I only wanted to share these memories honestly, without putting any pressure on you.</p>
+    </section>
+
+    <section class="section memories" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">01 / Little moments</p>
+        <h2>Some memories<br><em>stayed with me.</em></h2>
+      </div>
+      <div class="memory-grid">
+        <article class="memory-card">
+          <span class="number">01</span><h3>The birthday jimmiki</h3>
+          <p>I made an effort to get it for you. When you asked whether Gautham had bought it, I smiled, even though I felt a little hurt inside. I still remember that moment.</p>
+        </article>
+        <article class="memory-card">
+          <span class="number">02</span><h3>A small reply</h3>
+          <p>Sometimes I would send a message and check our chat for your reply. It might have been an ordinary message, but it could make my day feel lighter.</p>
+        </article>
+        <article class="memory-card">
+          <span class="number">03</span><h3>The hackathon journey</h3>
+          <p>The journey, the conversations, and those two hours on the way to Perambalur became memories I still think about.</p>
+        </article>
+        <article class="memory-card">
+          <span class="number">04</span><h3>The ₹200 memory</h3>
+          <p>You gave me ₹200 that day. I kept it safely because it reminds me of that little journey and the time we shared.</p>
+        </article>
+      </div>
+      <figure class="wide-photo">
+        <img src="assets/memory-200.jpg" alt="A photograph of the ₹100 notes connected to a personal memory" loading="lazy">
+        <figcaption>A small keepsake from a day I remember.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section artwork" id="artwork">
+      <div class="section-heading">
+        <p class="eyebrow">02 / Made by hand</p>
+        <h2>Things I made<br><em>thinking of you.</em></h2>
+        <p class="section-description">A drawing, your name written in different scripts, and a page of words I wanted to share.</p>
+      </div>
+      <div class="art-grid">
+        <figure class="art-card art-large">
+          <img src="assets/eye-drawing.jpg" alt="Hand-drawn sketch of eyes" loading="lazy">
+          <figcaption><span>01</span><strong>Your eyes</strong><small>Practised and drawn by me.</small></figcaption>
+        </figure>
+        <figure class="art-card">
+          <img src="assets/name-artwork.jpg" alt="Handmade artwork with a name written in many languages" loading="lazy">
+          <figcaption><span>02</span><strong>Your name</strong><small>Written in 35 languages.</small></figcaption>
+        </figure>
+        <figure class="art-card">
+          <img src="assets/handwritten-note.jpg" alt="Handwritten personal note" loading="lazy">
+          <figcaption><span>03</span><strong>Unsaid words</strong><small>A little note from me.</small></figcaption>
+        </figure>
+      </div>
+      <p class="art-note">These are personal creations, not gifts you have to accept. I simply wanted you to see them.</p>
+    </section>
+
+    <section class="section eyes-quote">
+      <p class="eyebrow">A few words about your eyes</p>
+      <blockquote>“I could write a thousand poems about your eyes, and still feel that I haven't found the right words.”</blockquote>
+      <span class="quote-by">— Avish</span>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="section-heading">
+        <p class="eyebrow">03 / The words I kept</p>
+        <h2>A letter, in the language<br><em>that feels right to you.</em></h2>
+        <p class="section-description">Choose a version below. Each one shares the same message in a different language.</p>
+      </div>
+      <div class="language-tabs" role="tablist" aria-label="Letter language">
+        <button class="lang-tab active" role="tab" aria-selected="true" data-lang="tanglish">Tanglish</button>
+        <button class="lang-tab" role="tab" aria-selected="false" data-lang="english">English</button>
+        <button class="lang-tab" role="tab" aria-selected="false" data-lang="manglish">Malayalam English</button>
+      </div>
+      <article class="letter-paper" aria-live="polite">
+        <p class="letter-kicker">A personal letter</p>
+        <h3 id="letterTitle">Chandhana ❤️</h3>
+        <div id="letterContent" class="letter-content"></div>
+        <p class="letter-signoff">— Avish</p>
+      </article>
+    </section>
+
+    <section class="closing section">
+      <div class="closing-mark">✦</div>
+      <p class="eyebrow">One last thing</p>
+      <h2>Thank you for being<br><em>a beautiful memory.</em></h2>
+      <p>I respect your feelings and your space. Please take this page simply as something I wanted to express—not something you need to answer.</p>
+      <span class="closing-signature">With respect,<br><strong>Avish</strong></span>
+    </section>
+  </main>
+
+  <footer><span>Made with care</span><span>✦</span><span>For Chandhana</span></footer>
+
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/malayalam-instrumental.mp3" type="audio/mpeg">
+  </audio>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
